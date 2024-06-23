@@ -1,0 +1,146 @@
+%link {
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    font-family: arial, sans-serif;
+    height: 99vh;
+}
+
+.navBar-conaitner {
+    padding: 8px;
+    color: #1f1f1f
+}
+
+.row-search {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    font-size: .8rem;
+}
+
+.person-div {
+    background-color: #4285f4;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.person {
+    width: 25px;
+}
+
+.dots {
+    width: 35px;
+    padding: 5px;
+}
+
+.dots:hover {
+    background-color: #f0f1f1;
+    border-radius: 50%;
+}
+
+.adv-a {
+    @extend %link;
+}
+
+.img-a {
+    @extend %link;
+}
+
+.container-g {
+    display: flex;
+    justify-content: center;
+    margin-top: 7%;
+}
+
+.homePage {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.google-divImg {
+    margin-bottom: 30px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.searchBar {
+    border: 1px solid #dfe1e5;
+    border-radius: 30px;
+    height: 40px;
+    width: 582px;
+    flex-shrink: 2;
+    padding: 0px 20px;
+    font-size: medium;
+}
+
+.searchBar:hover {
+    background: #fff;
+    box-shadow: 0 1px 6px rgba(32, 33, 36, .28);
+    border-color: transparent;
+}
+
+.searchBar:focus-visible {
+    outline: solid 0px;
+}
+
+
+.btn-g {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: .9rem;
+    color: #3c4043;
+}
+
+.btn-g:hover {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .1);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+
+.link-row:hover {
+    text-decoration-line: underline;
+}
+
+.container {
+    position: absolute;
+    bottom: 0px;
+    max-width: 100% !important;
+}
+
+
+
+// Google Images
+
+
+
+
+
+// Advanced Search Styling
+
+
+
+@media (max-width: 650px) {
+
+    .searchBar {
+        width: 90%;
+    }
+
+}
